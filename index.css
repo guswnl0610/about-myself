@@ -1,0 +1,76 @@
+.navigation-bar{
+    width: 100%;
+    position: sticky;
+    box-shadow: 0px 2px 5px grey;
+    top: 0px;
+    list-style-type: none;
+    display: flex;
+    padding-inline-start: 0px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-text{
+    padding: 15px;
+    cursor: pointer;
+}
+
+.passport{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    height: 400px;
+    margin: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #e2eddb;
+    border-radius: 50px;
+}
+
+.icon{
+    width: 30px;
+}
+
+.citem{
+    flex:1;
+}
+
+#profilefic{
+    /* margin-left: 200px;
+    margin-right: 70px; */
+    border-radius: 30px;
+    width: 240px;
+    box-shadow: 0px 2px 5px grey;
+}
+
+h4{
+    color: grey;
+    text-align: center;
+    width: 400px;
+    border-bottom: 1px solid grey;
+    line-height: 0.1em;
+    margin: 20px;
+}
+
+tr{
+    height: 50px;
+
+}
+
+h4 span{
+    background-color: f7f9ec;
+    padding: 0 30px;
+}
+
+body{
+    margin: 0%;
+    text-align: center;
+    background-color: f7f9ec;
+}
+
