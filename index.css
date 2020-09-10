@@ -65,21 +65,71 @@
 }
 
 .fav-container{
+    padding: 5% 0;
     margin: 0 10%;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: repeat(3, 100px 200px);
-    row-gap: 30px;
-    column-gap: 5%;
+    row-gap: 50px;
+    column-gap: 10px;
+    place-items: center center;
 }
 
 .fav-item{
     background-color: white;
+    width: 250px;
+    height: 250px;
+    overflow: hidden;
+    border-radius: 30px;
 }
 
-.fav-item.fav-icon{
+.fav-item img:hover{
+    -ms-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.fav-item img{
+    width: auto;
+    height: 250px;
+    margin-left: -100px;
+}
+
+
+.limg img{
+    width: auto;
+    height: 250px;
+    margin-left: -50px;
+}
+
+.vimg img{
+    width: 250px;
+    height: auto;
+    margin-left: 0px;
+}
+
+
+
+.fav-icon{
     grid-column: 1/ span 3;
-    background-color: grey;
+    /* background-color: grey; */
+}
+
+.fav-icon img{
+    width: 80px;
+}
+
+.footer{
+    padding: 100 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer img{
+    width: 60px;
+    margin: 0 5;
 }
 
 #profilefic{
