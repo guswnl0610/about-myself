@@ -12,6 +12,11 @@
     align-items: center;
 }
 
+.navigation-bar a{
+    text-decoration: none;
+    color: grey;
+}
+
 .nav-text{
     padding: 15px;
     cursor: pointer;
@@ -35,8 +40,6 @@
     flex-direction: row;
     align-items: center;
     background-color: #e2eddb;
-    
-    /* background-origin: inherit; */
     background-clip: padding-box;
     border-radius: 50px;
 }
@@ -87,6 +90,7 @@
     -ms-transform: scale(1.1);
     -webkit-transform: scale(1.1);
     transform: scale(1.1);
+    transition: transform 100ms ease-in;
 }
 
 .fav-item img{
@@ -112,7 +116,6 @@
 
 .fav-icon{
     grid-column: 1/ span 3;
-    /* background-color: grey; */
 }
 
 .fav-icon img{
@@ -159,3 +162,6 @@ body{
     font-family: 'Jua', sans-serif;
 }
 
+html{
+    scroll-behavior: smooth;
+}
